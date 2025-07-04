@@ -1,0 +1,29 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan =new Scanner(System.in);
+	    int num=scan.nextInt();
+	      int num1=scan.nextInt();
+	    if(num>0&&num<59)
+	    {
+	        System.out.println("female interest"+" "+8.2);
+	    }
+	    if (num>59&&num<100)
+	    {
+	        System.out.println("female interest"+" "+9.2);
+	    }
+	     if(num1>0&&num<59)
+	     System.out.println("male interest"+" "+8.2);
+	     if(num>59&&num<100)
+		System.out.println("male interest"+" "+9.2);
+	}
+}
+
